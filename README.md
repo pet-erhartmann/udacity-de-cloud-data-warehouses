@@ -40,14 +40,8 @@ FILTERING/MODIFICATION
 * only logs with the action 'Next Song' are processed in the ETL
 * all fields are inserted as in source files, only time dimensions have calculated date columns (hour, day, month, etc.)
 
-## Questions:
-- [ ] data type for user_agent?
-- [ ] jsonpath for songdata?
-- [ ] special characters in songs/artist ("artist":"Emil Gilels\\/Orchestre de la Soci\\u00c3\\u0083\\u00c2\\u00a9t\\u00c3\\u0083\\u00c2\\u00a9 des Concerts du Conservatoire\\/Andr\\u00c3\\u0083\\u00c2\\u00a9 Cluytens)
-
 ## Dev Setup
 ```
 source venv/bin/activate
 python -m pip install -r requirements.txt
 ```
-
